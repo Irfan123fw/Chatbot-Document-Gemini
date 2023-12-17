@@ -1,0 +1,6 @@
+streamlit
+streamlit_chat
+langchain
+chromadb
+google-generativeai
+langchain-google-genai
