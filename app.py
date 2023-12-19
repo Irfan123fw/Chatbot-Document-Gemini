@@ -52,7 +52,7 @@ def initialize_system():
 
     return docsearch, memory, prompt
 
-st.title("Hadis Contextual Question Answering")
+st.title("Question Answering Pdf Using Gemini-pro")
 
 if "initialized" not in st.session_state:
     st.session_state.docsearch, st.session_state.memory, st.session_state.prompt = initialize_system()
