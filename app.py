@@ -69,7 +69,6 @@ if st.button("Ask"):
         llm=llm,
         chain_type="stuff",
         retriever=docsearch.as_retriever(),
-        max_tokens_limit=4097,
         verbose=True,
         memory=memory,
         combine_docs_chain_kwargs={"prompt": prompt}
