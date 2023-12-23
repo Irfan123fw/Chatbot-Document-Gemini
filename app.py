@@ -3,7 +3,6 @@ from langchain.vectorstores import Chroma
 from langchain.memory import ChatMessageHistory, ConversationBufferMemory
 from langchain import PromptTemplate
 from langchain.chains import ConversationalRetrievalChain
-import chainlit as cl
 import google.generativeai as palm
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_google_genai import ChatGoogleGenerativeAI
